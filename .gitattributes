@@ -1,0 +1,10 @@
+# Python/venv
+.venv/
+venv/
+
+# 忽略自動產生的資料夾內容
+/config/*
+/archive/*
+/input/*
+/output/*
+/upload_ready/*

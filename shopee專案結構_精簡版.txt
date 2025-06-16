@@ -1,0 +1,37 @@
+資料夾結構掃描 (精簡版)
+========================================
+掃描路徑: C:\Users\user\Documents\shopee_orders_etl
+報告產製時間: 2025-06-13 15:43:57
+已排除資料夾: .git, .venv, __pycache__
+========================================
+
+📂 shopee_orders_etl/
+    📄 .gitattributes
+    📄 python_script_log.txt
+    📄 README.md
+    📄 requirements.txt
+    📂 archive/
+    📂 input/
+        📂 Decrypt/
+    📂 output/
+    📂 scripts/
+        📄 check_csv_content.py
+        📄 check_order_date_gaps.py
+        📄 clean_for_bigquery.py
+        📄 config.py
+        📄 debug_duplicate_keys.py
+        📄 export_tree.py
+        📄 filter_recent_30days_orders.py
+        📄 list_columns.py
+        📄 order_processing_script.py
+        📄 path_verification.py
+        📄 remove_multi_store_passwords.py
+        📄 shopee-etl-reporting-9531f3a7678a.json
+        📄 split_orders_to_b_tables.py
+        📄 store_cleaned_data_status.py
+        📄 upload_to_bq.py
+        📄 Voucher_usage_rate.py
+        📂 bat_scripts/
+            📄 run_cleaning.bat
+    📂 upload_ready/
+        📄 A01_master_orders_cleaned_for_bigquery.csv

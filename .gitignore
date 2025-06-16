@@ -1,0 +1,8 @@
+.venv/
+venv/
+__pycache__/
+*.log
+/archive/*
+/output/*
+/input/*
+/upload_ready/*
